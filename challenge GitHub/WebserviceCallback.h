@@ -6,8 +6,10 @@
 //  Copyright (c) 2015 Matheus Vechietin. All rights reserved.
 //
 
-#ifndef challenge_GitHub_WebserviceCallback_h
-#define challenge_GitHub_WebserviceCallback_h
+#import <Foundation/Foundation.h>
 
+@protocol WebserviceCallback <NSObject>
 
-#endif
+- (void)processData:(NSMutableDictionary *)data andType:(NSString *)tipo;
+
+@end

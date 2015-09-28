@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LoadWebPageViewController : UIViewController
+@interface LoadWebPageViewController : UIViewController <UIWebViewDelegate>
+
+@property (nonatomic, strong) NSString *stringURL;
 
 @end

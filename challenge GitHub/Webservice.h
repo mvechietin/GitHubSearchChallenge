@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "WebserviceCallback.h"
 
 @interface Webservice : NSObject
+
+- (void)requestGetMethodWithUrl:(NSString *)url withParams:(NSDictionary *)params type:(NSString *)type andDelegate:(id<WebserviceCallback>)delegateCallBack;
 
 @end

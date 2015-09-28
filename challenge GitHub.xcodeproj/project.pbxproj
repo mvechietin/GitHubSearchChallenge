@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D708C64E51DA1A946F920B3 /* libPods-challenge GitHub.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C223220D3EE092E32664E198 /* libPods-challenge GitHub.a */; };
+		8773D1F3D0294E9382FEC909 /* libPods-challenge GitHubTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA0B7CD61800EC8D743D757 /* libPods-challenge GitHubTests.a */; };
+		D768D7C91BB781C60073427E /* GitHub-32.png in Resources */ = {isa = PBXBuildFile; fileRef = D768D7C81BB781C60073427E /* GitHub-32.png */; };
+		D768D7CB1BB781F30073427E /* User Group Filled-32.png in Resources */ = {isa = PBXBuildFile; fileRef = D768D7CA1BB781F30073427E /* User Group Filled-32.png */; };
+		D768D7CE1BB784320073427E /* LoadWebPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D768D7CD1BB784320073427E /* LoadWebPageViewController.m */; };
+		D768D7D41BB78F3E0073427E /* Christmas Star-24.png in Resources */ = {isa = PBXBuildFile; fileRef = D768D7D31BB78F3E0073427E /* Christmas Star-24.png */; };
+		D7C7DD221BB7742D00AC9032 /* SearchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C7DD201BB7742D00AC9032 /* SearchTableViewCell.m */; };
+		D7C7DD231BB7742D00AC9032 /* SearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7C7DD211BB7742D00AC9032 /* SearchTableViewCell.xib */; };
+		D7C7DD291BB7791300AC9032 /* SearchUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C7DD281BB7791300AC9032 /* SearchUserViewController.m */; };
 		D7DBA58F1BB7658A00C66CBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DBA58E1BB7658A00C66CBB /* main.m */; };
 		D7DBA5921BB7658A00C66CBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DBA5911BB7658A00C66CBB /* AppDelegate.m */; };
 		D7DBA5951BB7658A00C66CBB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DBA5941BB7658A00C66CBB /* ViewController.m */; };
@@ -14,6 +23,8 @@
 		D7DBA59A1BB7658A00C66CBB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7DBA5991BB7658A00C66CBB /* Images.xcassets */; };
 		D7DBA59D1BB7658A00C66CBB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7DBA59B1BB7658A00C66CBB /* LaunchScreen.xib */; };
 		D7DBA5A91BB7658A00C66CBB /* challenge_GitHubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DBA5A81BB7658A00C66CBB /* challenge_GitHubTests.m */; };
+		D7DBA5B41BB7673E00C66CBB /* Webservice.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DBA5B31BB7673E00C66CBB /* Webservice.m */; };
+		D7F891131BB76E5E0061C23E /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F891121BB76E5E0061C23E /* LoadingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +38,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		646E8DF4886AE47845B32159 /* Pods-challenge GitHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-challenge GitHub.release.xcconfig"; path = "Pods/Target Support Files/Pods-challenge GitHub/Pods-challenge GitHub.release.xcconfig"; sourceTree = "<group>"; };
+		9FC61A97A36B12D78D7E0FED /* Pods-challenge GitHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-challenge GitHub.debug.xcconfig"; path = "Pods/Target Support Files/Pods-challenge GitHub/Pods-challenge GitHub.debug.xcconfig"; sourceTree = "<group>"; };
+		C223220D3EE092E32664E198 /* libPods-challenge GitHub.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-challenge GitHub.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5CCB73578FAAE0AAD12AEB5 /* Pods-challenge GitHubTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-challenge GitHubTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-challenge GitHubTests/Pods-challenge GitHubTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D768D7C81BB781C60073427E /* GitHub-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GitHub-32.png"; sourceTree = "<group>"; };
+		D768D7CA1BB781F30073427E /* User Group Filled-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "User Group Filled-32.png"; sourceTree = "<group>"; };
+		D768D7CC1BB784320073427E /* LoadWebPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadWebPageViewController.h; sourceTree = "<group>"; };
+		D768D7CD1BB784320073427E /* LoadWebPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadWebPageViewController.m; sourceTree = "<group>"; };
+		D768D7D31BB78F3E0073427E /* Christmas Star-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Christmas Star-24.png"; sourceTree = "<group>"; };
+		D7C7DD1F1BB7742D00AC9032 /* SearchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTableViewCell.h; sourceTree = "<group>"; };
+		D7C7DD201BB7742D00AC9032 /* SearchTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTableViewCell.m; sourceTree = "<group>"; };
+		D7C7DD211BB7742D00AC9032 /* SearchTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchTableViewCell.xib; sourceTree = "<group>"; };
+		D7C7DD271BB7791300AC9032 /* SearchUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchUserViewController.h; sourceTree = "<group>"; };
+		D7C7DD281BB7791300AC9032 /* SearchUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchUserViewController.m; sourceTree = "<group>"; };
 		D7DBA5891BB7658A00C66CBB /* challenge GitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "challenge GitHub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7DBA58D1BB7658A00C66CBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7DBA58E1BB7658A00C66CBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +65,13 @@
 		D7DBA5A21BB7658A00C66CBB /* challenge GitHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "challenge GitHubTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7DBA5A71BB7658A00C66CBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7DBA5A81BB7658A00C66CBB /* challenge_GitHubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = challenge_GitHubTests.m; sourceTree = "<group>"; };
+		D7DBA5B21BB7673E00C66CBB /* Webservice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Webservice.h; sourceTree = "<group>"; };
+		D7DBA5B31BB7673E00C66CBB /* Webservice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Webservice.m; sourceTree = "<group>"; };
+		D7DBA5B51BB7676200C66CBB /* WebserviceCallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebserviceCallback.h; sourceTree = "<group>"; };
+		D7F891111BB76E5E0061C23E /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
+		D7F891121BB76E5E0061C23E /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
+		E53EA040ACDF6AE3D49497C0 /* Pods-challenge GitHubTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-challenge GitHubTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-challenge GitHubTests/Pods-challenge GitHubTests.release.xcconfig"; sourceTree = "<group>"; };
+		FBA0B7CD61800EC8D743D757 /* libPods-challenge GitHubTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-challenge GitHubTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D708C64E51DA1A946F920B3 /* libPods-challenge GitHub.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +87,104 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8773D1F3D0294E9382FEC909 /* libPods-challenge GitHubTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DC7C7331F0BAD9767E9632C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FC61A97A36B12D78D7E0FED /* Pods-challenge GitHub.debug.xcconfig */,
+				646E8DF4886AE47845B32159 /* Pods-challenge GitHub.release.xcconfig */,
+				C5CCB73578FAAE0AAD12AEB5 /* Pods-challenge GitHubTests.debug.xcconfig */,
+				E53EA040ACDF6AE3D49497C0 /* Pods-challenge GitHubTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C628E5571363FA45A105F9F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C223220D3EE092E32664E198 /* libPods-challenge GitHub.a */,
+				FBA0B7CD61800EC8D743D757 /* libPods-challenge GitHubTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D768D7C51BB7818B0073427E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D768D7D31BB78F3E0073427E /* Christmas Star-24.png */,
+				D768D7C81BB781C60073427E /* GitHub-32.png */,
+				D768D7CA1BB781F30073427E /* User Group Filled-32.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D768D7D71BB79B8D0073427E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D768D7DB1BB79BE60073427E /* Custom Cell */,
+				D7DBA5931BB7658A00C66CBB /* ViewController.h */,
+				D7DBA5941BB7658A00C66CBB /* ViewController.m */,
+				D7C7DD271BB7791300AC9032 /* SearchUserViewController.h */,
+				D7C7DD281BB7791300AC9032 /* SearchUserViewController.m */,
+				D768D7CC1BB784320073427E /* LoadWebPageViewController.h */,
+				D768D7CD1BB784320073427E /* LoadWebPageViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D768D7D81BB79BAC0073427E /* Webservice */ = {
+			isa = PBXGroup;
+			children = (
+				D7DBA5B21BB7673E00C66CBB /* Webservice.h */,
+				D7DBA5B31BB7673E00C66CBB /* Webservice.m */,
+				D7DBA5B51BB7676200C66CBB /* WebserviceCallback.h */,
+			);
+			name = Webservice;
+			sourceTree = "<group>";
+		};
+		D768D7D91BB79BC20073427E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D768D7C51BB7818B0073427E /* Resources */,
+				D7F891111BB76E5E0061C23E /* LoadingView.h */,
+				D7F891121BB76E5E0061C23E /* LoadingView.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		D768D7DA1BB79BD40073427E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D7DBA59B1BB7658A00C66CBB /* LaunchScreen.xib */,
+				D7DBA5961BB7658A00C66CBB /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D768D7DB1BB79BE60073427E /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D7C7DD1F1BB7742D00AC9032 /* SearchTableViewCell.h */,
+				D7C7DD201BB7742D00AC9032 /* SearchTableViewCell.m */,
+				D7C7DD211BB7742D00AC9032 /* SearchTableViewCell.xib */,
+			);
+			name = "Custom Cell";
+			sourceTree = "<group>";
+		};
 		D7DBA5801BB7658A00C66CBB = {
 			isa = PBXGroup;
 			children = (
 				D7DBA58B1BB7658A00C66CBB /* challenge GitHub */,
 				D7DBA5A51BB7658A00C66CBB /* challenge GitHubTests */,
 				D7DBA58A1BB7658A00C66CBB /* Products */,
+				1DC7C7331F0BAD9767E9632C /* Pods */,
+				C628E5571363FA45A105F9F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,13 +200,13 @@
 		D7DBA58B1BB7658A00C66CBB /* challenge GitHub */ = {
 			isa = PBXGroup;
 			children = (
+				D768D7DA1BB79BD40073427E /* Views */,
+				D768D7D91BB79BC20073427E /* Utils */,
+				D768D7D81BB79BAC0073427E /* Webservice */,
+				D768D7D71BB79B8D0073427E /* Controllers */,
 				D7DBA5901BB7658A00C66CBB /* AppDelegate.h */,
 				D7DBA5911BB7658A00C66CBB /* AppDelegate.m */,
-				D7DBA5931BB7658A00C66CBB /* ViewController.h */,
-				D7DBA5941BB7658A00C66CBB /* ViewController.m */,
-				D7DBA5961BB7658A00C66CBB /* Main.storyboard */,
 				D7DBA5991BB7658A00C66CBB /* Images.xcassets */,
-				D7DBA59B1BB7658A00C66CBB /* LaunchScreen.xib */,
 				D7DBA58C1BB7658A00C66CBB /* Supporting Files */,
 			);
 			path = "challenge GitHub";
@@ -126,9 +245,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7DBA5AC1BB7658A00C66CBB /* Build configuration list for PBXNativeTarget "challenge GitHub" */;
 			buildPhases = (
+				5D16C18BC86B2CEE61BABFF6 /* Check Pods Manifest.lock */,
 				D7DBA5851BB7658A00C66CBB /* Sources */,
 				D7DBA5861BB7658A00C66CBB /* Frameworks */,
 				D7DBA5871BB7658A00C66CBB /* Resources */,
+				E60ABC4805284F6DB5FFC26F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -143,9 +264,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7DBA5AF1BB7658A00C66CBB /* Build configuration list for PBXNativeTarget "challenge GitHubTests" */;
 			buildPhases = (
+				23ADF35003B3AB8CA8ED7020 /* Check Pods Manifest.lock */,
 				D7DBA59E1BB7658A00C66CBB /* Sources */,
 				D7DBA59F1BB7658A00C66CBB /* Frameworks */,
 				D7DBA5A01BB7658A00C66CBB /* Resources */,
+				9966B0AA82CF0C53D36BEE7F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,6 +323,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7DBA5981BB7658A00C66CBB /* Main.storyboard in Resources */,
+				D768D7CB1BB781F30073427E /* User Group Filled-32.png in Resources */,
+				D7C7DD231BB7742D00AC9032 /* SearchTableViewCell.xib in Resources */,
+				D768D7D41BB78F3E0073427E /* Christmas Star-24.png in Resources */,
+				D768D7C91BB781C60073427E /* GitHub-32.png in Resources */,
 				D7DBA59D1BB7658A00C66CBB /* LaunchScreen.xib in Resources */,
 				D7DBA59A1BB7658A00C66CBB /* Images.xcassets in Resources */,
 			);
@@ -214,14 +341,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23ADF35003B3AB8CA8ED7020 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5D16C18BC86B2CEE61BABFF6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9966B0AA82CF0C53D36BEE7F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-challenge GitHubTests/Pods-challenge GitHubTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E60ABC4805284F6DB5FFC26F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-challenge GitHub/Pods-challenge GitHub-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D7DBA5851BB7658A00C66CBB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D768D7CE1BB784320073427E /* LoadWebPageViewController.m in Sources */,
+				D7C7DD291BB7791300AC9032 /* SearchUserViewController.m in Sources */,
 				D7DBA5951BB7658A00C66CBB /* ViewController.m in Sources */,
+				D7F891131BB76E5E0061C23E /* LoadingView.m in Sources */,
 				D7DBA5921BB7658A00C66CBB /* AppDelegate.m in Sources */,
+				D7DBA5B41BB7673E00C66CBB /* Webservice.m in Sources */,
 				D7DBA58F1BB7658A00C66CBB /* main.m in Sources */,
+				D7C7DD221BB7742D00AC9032 /* SearchTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,26 +542,33 @@
 		};
 		D7DBA5AD1BB7658A00C66CBB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FC61A97A36B12D78D7E0FED /* Pods-challenge GitHub.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "challenge GitHub/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "challenge GitHub";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D7DBA5AE1BB7658A00C66CBB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 646E8DF4886AE47845B32159 /* Pods-challenge GitHub.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "challenge GitHub/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "challenge GitHub";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		D7DBA5B01BB7658A00C66CBB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5CCB73578FAAE0AAD12AEB5 /* Pods-challenge GitHubTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -379,13 +581,14 @@
 				);
 				INFOPLIST_FILE = "challenge GitHubTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "challenge GitHubTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/challenge GitHub.app/challenge GitHub";
 			};
 			name = Debug;
 		};
 		D7DBA5B11BB7658A00C66CBB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E53EA040ACDF6AE3D49497C0 /* Pods-challenge GitHubTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -394,7 +597,7 @@
 				);
 				INFOPLIST_FILE = "challenge GitHubTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "challenge GitHubTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/challenge GitHub.app/challenge GitHub";
 			};
 			name = Release;
@@ -418,6 +621,7 @@
 				D7DBA5AE1BB7658A00C66CBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7DBA5AF1BB7658A00C66CBB /* Build configuration list for PBXNativeTarget "challenge GitHubTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +630,7 @@
 				D7DBA5B11BB7658A00C66CBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
